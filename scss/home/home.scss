@@ -1,0 +1,44 @@
+.home-content {
+    background-color: #cf697a;
+    border-style: solid;
+    border-width: 13px;
+    border-color: #f69aa9;
+    width: 850px;
+    height: 467px;
+    text-align: center;
+
+    p {
+        margin: 0 auto;
+        font-family: Cinema;
+        color: #340810;
+        font-size: 25px;
+        width: 85%;
+        margin-top: 35px;
+        line-height: 30px;
+    }
+
+    .download-container {
+        display: flex;
+        flex-direction: column;
+
+        .download-box {
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            background-color: #f69aa9;
+            width: 75%;
+            height: 45px;
+            cursor: pointer;
+
+            p {
+                margin: 0 auto;
+
+                span {
+                    color: #a54757;
+                }
+            }
+        }
+    }
+}

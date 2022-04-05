@@ -1,0 +1,18 @@
+.katsuki-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 755px;
+    min-height: 220px;
+    margin: 0 auto;
+
+    .katsuki-image {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 216px;
+        width: 125px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}

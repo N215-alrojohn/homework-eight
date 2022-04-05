@@ -1,0 +1,25 @@
+//structure
+@import "structure.scss";
+@import "variables.scss";
+@import "fonts.scss";
+
+//header
+@import "header/header.scss";
+@import "header/katsuki.scss";
+@import "header/logo.scss";
+
+//content
+@import "content.scss";
+@import "nav/nav.scss";
+
+//home
+@import "home/home.scss";
+
+//effects
+@import "effects/effects.scss";
+
+//dreamworlds
+@import "dreamworlds/dreamworlds.scss";
+
+//footer
+@import "footer/footer.scss";

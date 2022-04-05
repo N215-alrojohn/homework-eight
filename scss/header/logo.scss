@@ -1,0 +1,21 @@
+.logo-container {
+    height: 244px;
+    width: 331px;
+    justify-content: center;
+
+    .logo {
+        height: 224px;
+        width: 100%;
+        background-image: url(../images/logo.png);
+    }
+
+    .logotext {
+
+        p {
+            font-family: Cinema;
+            color: #f69aa9;
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+}

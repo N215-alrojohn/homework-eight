@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Application</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+<div class="wrapper">
+
+
+<header>
+<div class="logo-container">
+    <div class="logo"></div>
+    <div class="logotext"><p>Yume Hime - Official Site</p></div>
+</div>
+<div class="katsuki-container">
+    <div class="katsuki-image" style="background-image: url(images/mermaid.png); opacity: 25%;"></div>
+    <div class="katsuki-image" style="background-image: url(images/horsie.png); opacity: 50%;"></div>
+    <div class="katsuki-image" style="background-image: url(images/katsuki.png);"></div>
+    <div class="katsuki-image" style="background-image: url(images/potion.png); opacity: 50%;"></div>
+    <div class="katsuki-image" style="background-image: url(images/child.png); opacity: 25%;"></div>
+</div>
+</header> <!-- header closing -->
+<div class="content"> <!--THIS DIV CONTAINS THE NAV ON THE LEFT AND CONTENT ON THE RIGHT-->
+<div class="nav-container">
+    <p>Yume Hime is an English Yume Nikki fangame created by Rad Tunez in Game Maker.</p>
+<nav>
+    <a id="home" href="#"><div>Home</div></a>
+    <a id="katsuki" href="#"><div>Katsuki</div></a>
+    <a id="effects" href="#"><div>Effects</div></a>
+    <a id="dreamworlds"href="#"><div>Dream Worlds</div></a>
+</nav> <!-- nav closing -->
+</div> <!--nav container closing-->
+    <div id="app">
+        <!--start dynamic content-->
+
+        <!--end dynamic content-->
+    </div>
+</div> <!-- END THE CONTENT CONTAINER DIV--> 
+<footer>
+    <img src="images/logo.png" width="100px" height="65px">
+    <p>Yume Hime - Official Site</p>
+    <p>Rad Tunez 2022</p>
+</footer>
+</div>
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <script src="app/app.js"></script>
+</body>
+</html>
